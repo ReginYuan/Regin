@@ -1,0 +1,39 @@
+/* components/classic/movie/index.wxss */
+/* 设置布局 */
+
+
+.classic-container{
+  display: flex;
+  /* 垂直排列 */
+  flex-direction: column;
+  /* 子元素居中 */
+  align-items: center;
+}
+
+
+
+/* 设置加载照片 */
+
+.classic-img{
+  width: 750rpx;
+  height: 500rpx;
+}
+
+
+/* 给静态图标设置样式 */
+.tag{
+  width:46rpx;
+  height: 142rpx;
+  position: relative;
+  right: 310rpx;
+  bottom: 58rpx;
+}
+
+
+/* 给文字内容设置样式 */
+.content{
+  display: block;
+  max-width: 550rpx;
+  font-size: 36rpx;
+}
+

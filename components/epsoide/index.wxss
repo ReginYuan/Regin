@@ -1,0 +1,58 @@
+/* components/epsoide/index.wxss */
+
+/* 整体布局 */
+.container{
+  height: 60rpx;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+/* 期刊整体布局 */
+.index-container{
+  
+  display: flex;
+  flex-direction: row;
+  /* 保持内容底部对齐 */
+  align-items: baseline;
+
+}
+
+/* 期刊 NO特效 */
+.plain{
+  font-size: 32rpx;
+}
+
+/* 期刊数 */
+.index{
+  font-size: 60rpx;
+  line-height: 60rpx;
+  font-weight: 800;
+  margin-right: 20rpx;
+}
+
+/* 分割线效果 */
+.line{
+  height: 44rpx;
+  margin-right: 14rpx;
+  border-left: 1px solid black;
+}
+
+/* 月份整体布局 */
+.date-container{
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+}
+
+/* 月份样式 */
+.month{
+  font-size: 24rpx;
+  line-height: 24rpx;
+  margin-right: 2rpx;
+}
+
+/* 年样式 */
+.year{
+  font-size: 20rpx;
+}

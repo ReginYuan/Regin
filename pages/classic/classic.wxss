@@ -1,0 +1,22 @@
+
+/* 头部样式 */
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+/* 期刊和月份样式 */
+.epsoide{
+  margin-right: 20rpx;
+  margin-top: 4rpx;
+}
+
+/* 点赞总体样式 */
+.like{
+  margin-top:6rpx;
+}

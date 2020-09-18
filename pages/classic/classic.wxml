@@ -1,0 +1,17 @@
+<!-- 设置自定义属性 like="{{}}" count="{{}}"
+Response_description:
+fav_nums: 点赞次数
+like_status: 是否点赞
+image: 图片
+content：期刊内容
+bind:like="onLike" 绑定like激活方法
+ -->
+
+<!-- 头部 -->
+<view class="header">
+	<v-epsoide class="epsoide" index="{{classicData.index}}" />
+	<v-like  class="like" bind:like="onLike" like="{{classicData.like_status}} " count="{{classicData.fav_nums}}" />
+</view>
+
+<v-movie img="{{classicData.image}}" content="{{classicData.content}}" />
+<view class="container"></view>

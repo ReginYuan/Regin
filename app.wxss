@@ -1,0 +1,9 @@
+/*
+ page是可以影响到组件的 
+ 组件只有继承极少数全局样式比如 font color
+*/
+
+page {
+  font-family: "PingFangSC-Thin";
+  font-size: 32px;
+}
